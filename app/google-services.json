@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "228418009292",
+    "firebase_url": "https://dorm-f903a.firebaseio.com",
+    "project_id": "dorm-f903a",
+    "storage_bucket": "dorm-f903a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228418009292:android:3746bdc5aadb6df4686a69",
+        "android_client_info": {
+          "package_name": "com.example.dorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228418009292-ant1hg3vqh7p9mc18ktvg4gtod556adr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjXJa2Ps-RQq-xeKN8grc_5fgdcCTcZXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228418009292-ant1hg3vqh7p9mc18ktvg4gtod556adr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

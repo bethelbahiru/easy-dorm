@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dorm.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.example.dorm.MainActivity"
+        android:label="Profile"
+        tools:layout="@layout/activity_main" />
+
+    <activity
+        android:id="@+id/nav_permission"
+        android:name="com.example.dorm.Permission"
+        android:label="Permission"
+        tools:layout="@layout/activity_permission" />
+
+    <activity
+        android:id="@+id/nav_food"
+        android:name="com.example.dorm.FoodList"
+        android:label="Food List"
+        tools:layout="@layout/activity_food_list" />
+
+    <activity
+        android:id="@+id/nav_Event"
+        android:name="com.example.dorm.EventList"
+        android:label="Event"
+        tools:layout="@layout/activity_event_list" />
+
+
+    <activity
+        android:id="@+id/nav_Payment"
+        android:name="com.example.dorm.PaymentProgram"
+        android:label="Payment"
+        tools:layout="@layout/activity_payment_program" />
+</navigation>

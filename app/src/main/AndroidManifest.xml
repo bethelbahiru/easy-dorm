@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dorm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher_dorrm_icon"
+        android:label="Easy Dorm"
+        android:roundIcon="@mipmap/ic_launcher_dorrm_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PrivacyPolicy" />
+        <activity android:name=".MessageSuccess" />
+        <activity
+            android:name=".SendMessage"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".PayPal"
+            android:parentActivityName=".PaymentProgram" />
+        <activity android:name=".PaymentSuccess" />
+        <activity
+            android:name=".PaymentProgram"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".PaymentInformation"
+            android:parentActivityName=".PaymentProgram" />
+        <activity
+            android:name=".UpdateFood"
+            android:parentActivityName=".DisplayFoodProgram" />
+        <activity
+            android:name=".EventList"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".AddEvent"
+            android:parentActivityName=".EventList" />
+        <activity
+            android:name=".PermissionList"
+            android:parentActivityName=".Permission" />
+        <activity
+            android:name=".DisplayFoodProgram"
+            android:parentActivityName=".FoodList" />
+        <activity
+            android:name=".FoodList"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".FoodProgram"
+            android:parentActivityName=".FoodList" />
+        <activity
+            android:name=".Permission"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".editProfile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".forgotPassword"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".MainActivity2" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

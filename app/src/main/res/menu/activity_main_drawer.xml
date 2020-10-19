@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_permission"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            android:title="Permission" />
+
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_baseline_fastfood_24"
+            android:title="Food" />
+
+        <item
+            android:id="@+id/nav_Event"
+            android:icon="@drawable/ic_baseline_event_available_24"
+            android:title="Event" />
+
+        <item
+            android:id="@+id/nav_Payment"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Payment" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:onClick="shareItem"
+                android:icon="@drawable/ic_baseline_share_24" />
+
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Privacy Policy"
+                android:onClick="privacyPolicy"
+                android:icon="@drawable/ic_baseline_subject_24" />
+        </menu>
+
+    </item>
+
+
+</menu>

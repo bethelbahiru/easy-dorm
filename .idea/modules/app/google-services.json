@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "801329063942",
+    "firebase_url": "https://dorm-bc7ef.firebaseio.com",
+    "project_id": "dorm-bc7ef",
+    "storage_bucket": "dorm-bc7ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801329063942:android:bbc3c5eba48bcb80a07b87",
+        "android_client_info": {
+          "package_name": "com.example.dorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801329063942-np7m0r6jrbqgklbje05i3p1hsju1h7lh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dorm",
+            "certificate_hash": "dde961c823f6f32b2f0dcc173c7007ba21145237"
+          }
+        },
+        {
+          "client_id": "801329063942-7r8bnqn4qqldu3bgpt2aen5o47mt2s39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Um5dh7U-zIgeP3vy-ORXi4WkjedZyco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801329063942-7r8bnqn4qqldu3bgpt2aen5o47mt2s39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

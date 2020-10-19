@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dorm</string>
+    <string-array name="Role">
+        <item>BreakFast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string-array name="Payment">
+        <item>Credit Card</item>
+        <item>PayPal Transfer</item>
+    </string-array>
+
+    <string-array name="Months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="easy_dorm">EASY DORM</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="student_login">Student Login</string>
+    <string name="login">LOGIN</string>
+    <string name="new_create_account">New ? Create Account</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="already_has_account_login">Already has account ? Login</string>
+    <string name="register">REGISTER</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+</resources>
