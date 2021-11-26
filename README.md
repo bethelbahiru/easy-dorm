@@ -1,4 +1,4 @@
-# Easy_Dorm
+# easy-dorm
 Easy dorm is a simple android mobile application used in student dormitories to facilitate communication between students and dorm administrators. This application is developed using the Firebase platform making use of Cloud Firestore, and Firebase Authentication.
 
 ## Prerequisities
